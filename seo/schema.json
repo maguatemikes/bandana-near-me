@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "bandana near me",
+  "description": "",
+  "image": "https://yourdomain.com//assets/banner.jpg",
+  "sku": "",
+  "brand": {
+    "@type": "Brand",
+    "name": "Bandana Store"
+  },
+  "offers": {
+    "@type": "Offer",
+    "url": "https://yourdomain.com//",
+    "priceCurrency": "USD",
+    "price": "",
+    "availability": "https://schema.org/InStock",
+    "itemCondition": "https://schema.org/NewCondition"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "",
+    "reviewCount": ""
+  }
+}

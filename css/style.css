@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: whitesmoke;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.header_wrapper {
+  width: 100%;
+  background-color: white;
+  height: 8vh;
+  display: flex;
+  padding: 16px;
+}
+
+.header_container {
+  width: 100%;
+  max-width: 1728px;
+  margin-inline: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 16px;
+
+  .nav_menu {
+    display: flex;
+    gap: 16px;
+  }
+
+  .header_cta {
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    padding: 8px 16px 8px 16px;
+    border-radius: 8px;
+  }
+}
+
+.hero_wrapper {
+  width: 100%;
+  max-width: 1728px;
+  margin-inline: auto;
+  min-height: 90vh;
+  display: flex;
+  gap: 48px;
+  padding-inline: 16px;
+
+  .left {
+    flex: 1;
+
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 20px;
+
+    h1 {
+      font-size: 48px;
+      font-weight: bold;
+      text-transform: capitalize;
+    }
+
+    .hero_cta {
+      background-color: black;
+      color: white;
+      font-size: 26px;
+      padding: 8px 16px 8px 16px;
+      border-radius: 8px;
+    }
+  }
+  .right {
+    flex: 1;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+    img {
+      border-radius: 16px;
+      width: 100%;
+      height: 100%;
+      width: 700px;
+      object-fit: contain;
+    }
+  }
+}
+
+.badge_wrapper {
+  width: 100%;
+  max-width: 1728px;
+  margin-inline: auto;
+  padding-inline: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .badge_card_container {
+    border: 1px solid lightgrey;
+    background-color: white;
+    padding: 24px;
+    display: flex;
+    gap: 24px;
+    border-radius: 8px;
+
+    .badge_left {
+      h3 {
+        font-size: 32px;
+        font-weight: 600;
+      }
+      p {
+        max-width: 300px;
+        width: 100%;
+      }
+    }
+
+    .badge_right {
+      width: 100px;
+      height: 100px;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+
+.section_wrapper {
+  width: 100%;
+  max-width: 1728px;
+  margin-inline: auto;
+  margin-top: 60px;
+  padding-inline: 16px;
+  border-radius: 16px;
+}
+
+.rocket_container {
+  padding: 24px;
+  background-color: white;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

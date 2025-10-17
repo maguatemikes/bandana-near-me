@@ -1,0 +1,10 @@
+# robots.txt for {{title}} page
+User-agent: *
+Allow: /
+
+# Prevent duplicate content indexing if needed
+Disallow: /temp/
+Disallow: /drafts/
+
+# Sitemap reference
+Sitemap: https://yourdomain.com/sitemap.xml
